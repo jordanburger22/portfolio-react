@@ -48,7 +48,8 @@ const Contact = () => {
 
     return (
         <div className='contact-container'>
-            <p>Welcome! Please fill out the form below to get in touch with me.</p>
+            <p>Welcome! Please fill out the form below to get in touch with me. </p>
+            <p>You can also reach out to me via LinkedIn.</p>
             <form className='contact-form' onSubmit={handleSubmit}>
                 <input
                     type="text"
