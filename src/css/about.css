@@ -1,0 +1,96 @@
+:root {
+    --primary-color: #333;
+    --secondary-color: #f4f4f4;
+    --accent-color: #e0e0e0;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+.about-container {
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: var(--shadow-color) 0px 1px 3px, var(--shadow-color) 0px 4px 6px -1px;
+    margin-bottom: 20px;
+}
+
+.header-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    filter: drop-shadow(7px 6px 4px #000000);
+    margin-right: 20px;
+}
+
+.header > p {
+    width: 70%;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.skill-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+}
+
+.skill {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: var(--accent-color);
+    border-radius: 20px;
+    font-size: 0.9rem;
+    box-shadow: var(--shadow-color) 0px 2px 4px, var(--shadow-color) 0px 2px 4px -1px;
+}
+
+.experience {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: var(--shadow-color) 0px 1px 3px, var(--shadow-color) 0px 4px 6px -1px;
+}
+
+.experience h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.experience ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.experience ul > li {
+    margin-bottom: 20px;
+}
+
+.experience h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.experience ul ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.experience ul ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}

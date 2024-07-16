@@ -1,0 +1,70 @@
+.portfolio {
+    color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+    padding: 2%;
+}
+
+.project-container {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-container:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+}
+
+.proj-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proj-languages-used {
+    margin-right: 0.5%;
+    font-size: 0.9rem;
+}
+
+.btn-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    border-radius: 50%;
+    opacity: 0.75;
+    transition: opacity 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.link:hover {
+    opacity: 1.0;
+    transform: scale(1.1); /* Slightly zoom in the icon */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Add a glowing white shadow */
+}
+
+
+.proj-header {
+    margin-bottom: 15px;
+}
+
+.proj-languages {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.github-logo {
+    width: 32px;
+    height: 32px;
+}
