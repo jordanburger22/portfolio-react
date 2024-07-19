@@ -25,9 +25,6 @@ const Navbar = () => {
                     <img className='nav-logo linkedin' src={linkedinImg} />
                 </a>
             </div>
-
-
-
         </nav>
     );
 }

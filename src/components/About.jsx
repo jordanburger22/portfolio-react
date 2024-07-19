@@ -34,14 +34,14 @@ const About = () => {
                     <li>
                         <h4>Full Stack MERN Instructor at V School</h4>
                         <ul>
-                            <li>Built and taught modules on full stack development, including a module on user authentication using bcrypt, express-jwt, and jsonwebtoken.</li>
-                            <li>Worked with students in 1:1 situations, taught weekly workshops to an average group of ten students, and helped around 70 students complete the program.</li>
-                            <li>Focused on hands-on applications of concepts and breaking down complex ideas for students.</li>
-                            <li>Received positive feedback from students for approachability and dedication to their success.</li>
+                            <li>Build and teach modules on full stack development, including a module on user authentication using bcrypt, express-jwt, and jsonwebtoken.</li>
+                            <li>Work with students in 1:1 situations, teach weekly workshops to an average group of ten students, and help around 70 students complete the program.</li>
+                            <li>Focus on hands-on applications of concepts and break down complex ideas for students.</li>
+                            <li>Receive positive feedback from students for approachability and dedication to their success.</li>
                         </ul>
                     </li>
                     <li>
-                        <h4>Restaurant Manager at Maddox Ranch House</h4>
+                        <h4>Manager at Maddox Ranch House</h4>
                         <ul>
                             <li>Managed day-to-day operations, kept the kitchen and serving area clean, and handled prep work for shifts.</li>
                             <li>Managed roughly 20 staff members per shift, with about 50 staff members total.</li>

@@ -8,14 +8,14 @@ function App() {
 
 
   return (
-    <>
+    <div className='app'>
       <Navbar />
       <Routes>
         <Route path='/' element={<About />}/>
         <Route path='/portfolio' element={<Portfolio />}/>
         <Route path='/contact' element={<Contact />}/>
       </Routes>
-    </>
+    </div>
   )
 }
 

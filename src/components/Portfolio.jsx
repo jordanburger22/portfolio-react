@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
 import '../css/portfolio.css';
 import githubImg from '../assets/github-mark-white.png';
+import blackPine from '../assets/black-pine.png'
 
 const Portfolio = () => {
     const [hoveredProject, setHoveredProject] = useState(null);
 
     const portfolioProjects = [
         {
-            githubUrl: 'https://github.com/jordanburger22/assignments',
-            webpageUrl: 'https://github.com/jordanburger22/assignments',
-            screenshot: 'https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            appName: 'Project 1',
-            appDescription: 'A web application for managing tasks and todos.',
-            languagesAndLibraries: ['React', 'Node.js', 'Express', 'MongoDB', 'HTML', 'CSS']
+            githubUrl: 'https://github.com/jordanburger22/black-pine-final',
+            webpageUrl: 'https://blackpinewellness.com/',
+            screenshot: blackPine,
+            appName: 'Black Pine Wellness',
+            appDescription: 'I developed a website for a local massage and wellness company featuring detailed service listings with prices. The site includes a secure admin login for updating prices, modifying service descriptions, and adding new services. This project demonstrates my ability to create user-friendly websites with robust admin functionalities.',
+            languagesAndLibraries: ['React', 'Node.js', 'Express', 'MongoDB', 'HTML', 'CSS', 'Bcrypt', 'Dotenv', 'Express-JWT', "Json Web Token"]
         },
         {
             githubUrl: 'https://github.com/jordanburger22/assignments',
